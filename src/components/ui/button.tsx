@@ -18,9 +18,6 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        treasure: "bg-gradient-to-r from-yellow-400 to-yellow-600 text-yellow-900 hover:from-yellow-300 hover:to-yellow-500 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 font-bold",
-        adventure: "bg-gradient-to-r from-red-500 to-orange-500 text-white hover:from-red-400 hover:to-orange-400 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 font-bold",
-        ocean: "bg-gradient-to-r from-blue-600 to-cyan-500 text-white hover:from-blue-500 hover:to-cyan-400 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 font-bold",
       },
       size: {
         default: "h-10 px-4 py-2",
